@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#sliders-boxes{
+    display: flex !important;
+}
+
+.slick-slide div{
+    margin: 5px;
+}
+
+.slick-arrow:before{
+    font-size: 40px;
+    color: #fff;
+}
+
+.slick-prev {
+    left: -35px;
+}
+
+.slick-next {
+    right: -30px;
+}
+
+@keyframes scaleUpAndDown {
+    0%, 100% { transform: scale(1);}
+    50% { transform: scale(1.1);}
+}

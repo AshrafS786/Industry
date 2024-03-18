@@ -26,6 +26,10 @@ const Hero = () => {
         <h1 data-aos="zoom-in-up" className="lg:text-6xl text-5xl text-black font-bold text-center" >
             Home Repair Services
         </h1>
+        <p data-aos="zoom-in" className="text-xl font-semibold text-slate-600 text-justify">
+          <span className="font-bold">Home Repair Services</span> is a leading home repair services provider in the country. We provide the best home repair services for your home.
+        </p>
+        <button data-aos="fade-in" className="px-10 py-4 bg-transparent border-[3px] border-black font-bold hover:bg-black hover:text-white" >CONTACT US</button>
       </div>
     </section>
   );
