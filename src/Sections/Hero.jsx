@@ -1,5 +1,6 @@
 import heroimg from "../assets/heroimg.png";
 import bgimg from "../assets/bgimg.jpg";
+import '../index.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -20,7 +21,7 @@ const Hero = () => {
       id="hero"
       className="w-full h-fit lg:px-20 flex lg:flex-row flex-col justify-center items-center gap-20 bg-cover bg-center" style={{ backgroundImage: `url(${bgimg})`}} >
       <div id="hero-image" className="lg:w-[40%] w-full flex flex-col justify-center items-end">
-        <img src={heroimg} alt="" width={600} height={700} className="" />
+        <img src={heroimg} alt="" width={600} height={700} className="animate-scale-up-and-down" />
       </div>
       <div id="content-hero" className="flex flex-col justify-center items-start gap-10 lg:w-[60%] w-full pb-20">
         <h1 data-aos="zoom-in-up" className="lg:text-6xl text-5xl text-black font-bold text-center" >

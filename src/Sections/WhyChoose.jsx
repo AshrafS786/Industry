@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { chooseus } from "../components/export";
 import cta1 from "../assets/cta1.png";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const WhyChoose = () => {
   //define animation variable here
@@ -29,7 +28,7 @@ const WhyChoose = () => {
         </h1>
         <p data-aos="fade-in" className="text-slate-100 text-xl text-center" >
           Our repair experts are professionals with an average of 10 years of
-          trade experience. While you'll find that each of our repair pros behave
+          trade experience. While you`ll find that each of our repair pros behave
           and communicate professionally.
         </p>
 
@@ -63,19 +62,19 @@ const WhyChoose = () => {
       <div data-aos="fade-down" className="flex flex-col justify-between items-start gap-3 w-full" >
           <div className="flex flex-row justify-start items-start gap-2 ">
             <IoIosArrowDroprightCircle className="w-[30px] h-[30px] cursor-pointer" />
-            <h1 className="text-xl font-semibold">Consistent delivery of high-quality results</h1>
+            <h1 className="text-xl font-semibold">Consistent delivery of high-quality results.</h1>
           </div>
           <div className="flex flex-row justify-start items-start gap-2 ">
             <IoIosArrowDroprightCircle className="w-[30px] h-[30px] cursor-pointer" />
-            <h1 className="text-xl font-semibold">Consistent delivery of high-quality results</h1>
+            <h1 className="text-xl font-semibold">Persistent provision of premium-quality outcomes.</h1>
           </div>
           <div className="flex flex-row justify-start items-start gap-2 ">
             <IoIosArrowDroprightCircle className="w-[30px] h-[30px] cursor-pointer" />
-            <h1 className="text-xl font-semibold">Consistent delivery of high-quality results</h1>
+            <h1 className="text-xl font-semibold">Continual provision of top-tier performance.</h1>
           </div>
           <div className="flex flex-row justify-start items-start gap-2 ">
             <IoIosArrowDroprightCircle className="w-[30px] h-[30px] cursor-pointer" />
-            <h1 className="text-xl font-semibold">Consistent delivery of high-quality results</h1>
+            <h1 className="text-xl font-semibold">Steady supply of superior quality results.</h1>
           </div>
       </div>
       </div>

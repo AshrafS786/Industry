@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'scale-up-and-down' : 'scaleUpAndDown 2s infinite',
+      }
+    },
   },
   plugins: [],
 }
