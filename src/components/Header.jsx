@@ -37,7 +37,7 @@ const Header = () => {
   ];
 
   return (
-    <nav className="flex justify-between items-center gap-4 bg-black lg:px-10 px-4 py-6 sticky top-0 z-30">
+    <nav className="flex justify-between items-center gap-4 bg-black lg:px-10 px-4 py-6 top-0 z-30">
       <div id="logo">
         <h1 className="lg:text-[35px] text-[28px] text-white font-bold">
           DEBUG <span className="italic text-yellow-500">Entity</span>
@@ -53,7 +53,7 @@ const Header = () => {
       {/* mobile menu starts */}
       <div className="flex justify-center items-center lg:hidden" onClick={toggleMenu}>
        <div>
-        {isMenuOpen ? <FaXmark className="text-white text-2xl cursor-pointer" /> : <FaBars className="text-white text-2xl cursor-pointer" />}
+        {isMenuOpen ? <FaXmark className="text-white text-2xl cursor-pointer" /> : <FaBars className="text-white text-2xl cursor-pointer" onClick={closeMenu} />}
        </div>
       </div>
 
